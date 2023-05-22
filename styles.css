@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+ div{
+            position:relative;
+            top: 200px;
+            left: 200px;
+        }
+        .line{
+            width: 200px;
+            height: 2px;
+            background-color: black;
+        }
+        #line{
+            animation: spin 2s linear infinite;
+        }
+        @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+        }
